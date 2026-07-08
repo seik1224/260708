@@ -2,3 +2,13 @@
 	9. kiwi를 만들어보세요.
 
 */
+
+body {
+	background-image: url(images/kiwi-bg.png);
+}
+
+.wrapper {border-color: green;}
+.wrapper .header .title {color:green;}
+.wrapper .header .gnb {background-color: green;}
+.wrapper .main {justify-content: flex-end;}
+.wrapper .point {right: unset;left:-100px;}
