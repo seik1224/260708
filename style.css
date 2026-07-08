@@ -44,6 +44,8 @@ body {
 }
 
 .wrapper {
+    position: relative;
+
     background-color: #fff;
     width: 960px;
     margin: 30px auto;
@@ -89,3 +91,18 @@ body {
 /************************************
     main
 ************************************/
+
+.wrapper .main {
+    display: flex;
+    gap:20px;
+}
+
+.wrapper .main p {
+    width: 300px;
+}
+
+.wrapper .point {
+    position:absolute;
+    bottom:-100px;
+    right:-40px;
+}
